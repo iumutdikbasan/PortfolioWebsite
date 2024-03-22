@@ -15,7 +15,7 @@ export class ResumeComponent {
   DownloadFile(){
       const link = this.renderer.createElement('a');
       link.setAttribute('target','_blank');
-      link.setAttribute('href', '../../assets/Jiumutdikbasan.pdf');
+      link.setAttribute('href', 'https://iumutdikbasan.github.io/PortfolioWebsite/assets/Jiumutdikbasn.pdf');
       link.setAttribute('download','Jiumutdikbasan.pdf');
       link.click();
       link.remove();
