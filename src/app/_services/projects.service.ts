@@ -14,7 +14,7 @@ export class ProjectsService {
     description : 'This project is a weather application developed using Spring Boot. The application provides weather forecasts using a RESTful web service. It allows users to query weather forecasts for a city, providing predictions at 3-hour intervals covering a 5- day period. The application retrieves weather forecasts using the OpenWeatherMap API',
     projectLink : 'https://github.com/iumutdikbasan/weather-app',
     tags :[Tag.JAVA,Tag.SPRING,Tag.SPRINGCLOUDFEIGN,Tag.SPRINGSECURITY,Tag.SPRINGKAFKA,Tag.JWT,Tag.POSTGRESQL,Tag.SPRINGMOCKITO],
-    pictures : ["../../assets/slide1.jpg","../../assets/slide2.jpg","../../assets/slide3.jpg"]
+    pictures : ["assets/slide1.jpg","assets/slide2.jpg","assets/slide3.jpg"]
   },
   {
     id : 1,
@@ -23,7 +23,7 @@ export class ProjectsService {
     description : 'It is a service that manages Users, Products and comments.',
     projectLink : 'https://github.com/iumutdikbasan/ecommerce',
     tags :[Tag.JAVA,Tag.SPRING,Tag.JWT,Tag.POSTGRESQL],
-    pictures : ["../../assets/slide1.jpg","../../assets/slide2.jpg","../../assets/slide3.jpg"]
+    pictures : ["assets/slide1.jpg","assets/slide2.jpg","assets/slide3.jpg"]
   },
   {
     id : 2,
@@ -32,7 +32,7 @@ export class ProjectsService {
     description : 'CRUD operations, event listeners to exchange messages between services. If a product is not in the inventory, the receipt service doesnt work',
     projectLink : 'https://github.com/iumutdikbasan/broker-ms',
     tags :[Tag.JAVA,Tag.SPRING,Tag.SPRINGSECURITY,Tag.SPRINGCLOUDGATEWAY,Tag.MONGODB,Tag.JWT,Tag.RABBITMQ],
-    pictures : ["../../assets/slide1.jpg","../../assets/slide2.jpg","../../assets/slide3.jpg"]
+    pictures : ["assets/slide1.jpg","assets/slide2.jpg","assets/slide3.jpg"]
   },
   /*
   {
