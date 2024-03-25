@@ -12,10 +12,11 @@ export class Tag{
     static readonly MAVEN = new Tag('Maven', '#FF6600');
     static readonly MAPSTRUCT = new Tag('MapStruct','#FF6600' );
     static readonly MONGODB = new Tag('Mongo DB', '#7DB140');
-    static readonly RABBITMQ = new Tag('Rabbit MQ', '#FF6600')
-    static readonly CSHARP = new Tag('C#' ,'#800080')
-    static readonly ANGULAR = new Tag('Angular', '#FF0000')
-    static readonly SQL = new Tag('SQL', '#4169E1')
+    static readonly RABBITMQ = new Tag('Rabbit MQ', '#FF6600');
+    static readonly CSHARP = new Tag('C#' ,'#800080');
+    static readonly ANGULAR = new Tag('Angular', '#FF0000');
+    static readonly SQL = new Tag('SQL', '#4169E1');
+    static readonly MICROSERVICE =new Tag('Micro Service Architecture' ,'#007bff')
 
     private constructor(private readonly key: string, public readonly color: string){
 
