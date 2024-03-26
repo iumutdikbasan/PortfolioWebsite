@@ -17,6 +17,7 @@ import {CarouselModule} from 'ngx-bootstrap/carousel';
 import {CollapseModule} from 'ngx-bootstrap/collapse';
 import {AccordionModule} from 'ngx-bootstrap/accordion';
 import { FormsModule } from '@angular/forms';
+import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgxGoogleAnalyticsModule.forRoot('MEASUREMENT-ID'),
+    NgxGoogleAnalyticsRouterModule,
     BrowserAnimationsModule,
     ModalModule.forRoot(),
     CarouselModule.forRoot(),
