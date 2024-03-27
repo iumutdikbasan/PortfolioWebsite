@@ -16,7 +16,8 @@ export class Tag{
     static readonly CSHARP = new Tag('C#' ,'#800080');
     static readonly ANGULAR = new Tag('Angular', '#FF0000');
     static readonly SQL = new Tag('SQL', '#4169E1');
-    static readonly MICROSERVICE =new Tag('Micro Service Architecture' ,'#007bff')
+    static readonly MICROSERVICE =new Tag('Micro Service Architecture' ,'#007bff');
+    static readonly DOCKER = new Tag('Docker', '#0db7ed');
 
     private constructor(private readonly key: string, public readonly color: string){
 

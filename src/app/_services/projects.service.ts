@@ -37,7 +37,7 @@ export class ProjectsService {
     summary : 'CRUD operations, event listeners to exchange messages between services. If a product is not in the inventory, the receipt service doesnt work',
     description : 'CRUD operations, event listeners to exchange messages between services. If a product is not in the inventory, the receipt service doesnt work',
     projectLink : 'https://github.com/iumutdikbasan/broker-ms',
-    tags :[Tag.JAVA,Tag.SPRING,Tag.SPRINGSECURITY,Tag.SPRINGCLOUDGATEWAY,Tag.MONGODB,Tag.JWT,Tag.RABBITMQ, Tag.MICROSERVICE],
+    tags :[Tag.JAVA,Tag.SPRING,Tag.SPRINGSECURITY,Tag.SPRINGCLOUDGATEWAY,Tag.MONGODB,Tag.JWT,Tag.RABBITMQ, Tag.MICROSERVICE,Tag.DOCKER],
     pictures : ["assets/slide1.jpg","assets/slide2.jpg","assets/slide3.jpg"]
   },
 
