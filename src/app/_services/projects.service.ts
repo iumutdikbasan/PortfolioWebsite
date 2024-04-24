@@ -16,9 +16,24 @@ export class ProjectsService {
     tags :[Tag.JAVA,Tag.SPRING,Tag.SPRINGCLOUDFEIGN,Tag.SPRINGSECURITY,Tag.SPRINGKAFKA,Tag.JWT,Tag.POSTGRESQL,Tag.SPRINGMOCKITO],
     pictures : ["assets/weather_slide1.png","assets/slide2.jpg","assets/slide3.jpg"]
   },
-  
   {
     id : 1,
+    name : 'Trip Scanner',
+    summary : 'Backend API for a train ticket search application.',
+    description : `
+
+    This user-friendly trip management system offers a well-structured API with automatic data mapping and secure access control.
+     It enforces logical travel rules and provides trip search for all users. 
+     Admins can manage stations and trips, while a daily background task retrieves and processes data from a third-party source. 
+    Security features include database authentication, user roles, and encrypted passwords.
+    `,
+    projectLink : 'https://github.com/iumutdikbasan/TripScanner',
+    tags : [Tag.JAVA,Tag.SPRING,Tag.SPRINGSECURITY,Tag.POSTGRESQL],
+    pictures : ["assets/tripscanner.jpg","assets/slide2.jpg","assets/slide3.jpg"]
+  },
+  
+  {
+    id : 2,
     name : 'E-Commerce Clone',
     summary : 'It is a service that manages Users, Products and comments.',
     description : '● The user manages a service that handles products and reviews. \n\
@@ -32,7 +47,7 @@ export class ProjectsService {
     pictures : ["assets/comment_slide1.png","assets/comment_slide2.png","assets/comment_slide3.png","assets/comment_slide4.png","assets/comment_slide5.png"]
   },
   {
-    id : 2,
+    id : 3,
     name : 'Broker',
     summary : 'CRUD operations, event listeners to exchange messages between services. If a product is not in the inventory, the receipt service doesnt work',
     description : 'CRUD operations, event listeners to exchange messages between services. If a product is not in the inventory, the receipt service doesnt work',
@@ -42,7 +57,7 @@ export class ProjectsService {
   },
 
   {
-    id : 3,
+    id : 4,
     name : 'PaymentApp',
     summary : 'Full-Stack Project Payment API',
     description : 'Full-Stack Project Payment API',
@@ -51,7 +66,7 @@ export class ProjectsService {
     pictures : []
   },
   {
-    id : 4,
+    id : 5,
     name : 'Mango',
     summary : 'ASP.NET Core Web Application with Bootstrap 5 and Razor.\n\ NET API with Authentication and Authorization  Async and Sync communication between Microservices School Project',
     description :  'ASP.NET Core Web Application with Bootstrap 5 and Razor.\n\ NET API with Authentication and Authorization  Async and Sync communication between Microservices',
@@ -60,7 +75,7 @@ export class ProjectsService {
     pictures : []
   },
   {
-    id : 4,
+    id : 6,
     name : 'Portfolio Website',
     summary : 'This Website',
     description :  'Responsive portfolio website with Angular',
