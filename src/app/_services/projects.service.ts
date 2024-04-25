@@ -10,7 +10,7 @@ export class ProjectsService {
   project: Project []=[ {
     id : 0,
     name : 'WeatherApp',
-    summary : 'A Spring Boot weather app provides 5-day forecasts with 3-hour intervals via a RESTful service using OpenWeatherMap API.',
+    summary : 'Developed a weather application with Spring Boot, offering 3-hourly forecasts for cities over a 5-day period via OpenWeatherMap API. Technologies used include Spring Boot, Spring Cloud Feign, Spring Security, Spring Kafka, JWT, PostgreSQL, and Mockito',
     description : 'This project is a weather application developed using Spring Boot. The application provides weather forecasts using a RESTful web service. It allows users to query weather forecasts for a city, providing predictions at 3-hour intervals covering a 5- day period. The application retrieves weather forecasts using the OpenWeatherMap API',
     projectLink : 'https://github.com/iumutdikbasan/weather-app',
     tags :[Tag.JAVA,Tag.SPRING,Tag.SPRINGCLOUDFEIGN,Tag.SPRINGSECURITY,Tag.SPRINGKAFKA,Tag.JWT,Tag.POSTGRESQL,Tag.SPRINGMOCKITO],
@@ -19,7 +19,7 @@ export class ProjectsService {
   {
     id : 1,
     name : 'Trip Scanner',
-    summary : 'Backend API for a train ticket search application.',
+    summary : 'Trip search application with Spring Boot, featuring CRUD-managed trip data and a Search API. Ensured security with authentication and daily data updates using a mock API.',
     description : `
 
     This user-friendly trip management system offers a well-structured API with automatic data mapping and secure access control.
@@ -29,7 +29,7 @@ export class ProjectsService {
     `,
     projectLink : 'https://github.com/iumutdikbasan/TripScanner',
     tags : [Tag.JAVA,Tag.SPRING,Tag.SPRINGSECURITY,Tag.POSTGRESQL],
-    pictures : ["assets/tripscanner.jpg","assets/slide2.jpg","assets/slide3.jpg"]
+    pictures : ["assets/tripscanner_slide1.png","assets/slide2.jpg","assets/slide3.jpg"]
   },
   
   {
