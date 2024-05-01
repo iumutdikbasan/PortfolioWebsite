@@ -11,10 +11,10 @@ export class ProjectsService {
     id : 0,
     name : 'WeatherApp',
     summary : 'Developed a weather application with Spring Boot, offering 3-hourly forecasts for cities over a 5-day period via OpenWeatherMap API. Technologies used include Spring Boot, Spring Cloud Feign, Spring Security, Spring Kafka, JWT, PostgreSQL, and Mockito',
-    description : 'This project is a weather application developed using Spring Boot. The application provides weather forecasts using a RESTful web service. It allows users to query weather forecasts for a city, providing predictions at 3-hour intervals covering a 5- day period. The application retrieves weather forecasts using the OpenWeatherMap API',
+    description : 'This project involves developing an application that provides weather forecasts using RESTful web services. The project allows users to query weather forecasts for a city and retrieves weather forecasts using the OpenWeatherMap API. In the backend, operations such as setting up a RESTful web service, managing the database, providing daily forecasts, user registration, utilizing the API, writing tests, creating documentation, and establishing logging mechanisms are performed. On the frontend, user interface and design are developed. Expectations from the project include ensuring code quality, structuring, writing tests, creating documentation, and ensuring the proper functioning of logging mechanisms.',
     projectLink : 'https://github.com/iumutdikbasan/weather-app',
-    tags :[Tag.JAVA,Tag.SPRING,Tag.SPRINGCLOUDFEIGN,Tag.SPRINGSECURITY,Tag.SPRINGKAFKA,Tag.JWT,Tag.POSTGRESQL,Tag.SPRINGMOCKITO],
-    pictures : ["assets/weather_slide1.png","assets/slide2.jpg","assets/slide3.jpg"]
+    tags :[Tag.JAVA,Tag.SPRING,Tag.SPRINGCLOUDFEIGN,Tag.SPRINGSECURITY,Tag.SPRINGKAFKA,Tag.JWT,Tag.H2DB,Tag.SPRINGMOCKITO, Tag.JAVASCRIPT,Tag.REACT,Tag.REDUX,Tag.AXIOS],
+    pictures : ["assets/weather_slide1.jpg","assets/weather_slide2.jpg","assets/weather_slide3.jpg","assets/weather_slide4.jpg","assets/weather_slide5.jpg","assets/weather_slide6.jpg","assets/weather_slide7.jpg","assets/weather_slide8.jpg"]
   },
   {
     id : 1,

@@ -18,6 +18,11 @@ export class Tag{
     static readonly SQL = new Tag('SQL', '#4169E1');
     static readonly MICROSERVICE =new Tag('Micro Service Architecture' ,'#007bff');
     static readonly DOCKER = new Tag('Docker', '#0db7ed');
+    static readonly JAVASCRIPT = new Tag('JavaScript','#fcba03');
+    static readonly REACT = new Tag('React','#61DAFB');
+    static readonly REDUX = new Tag('Redux', '#764ABC');
+    static readonly AXIOS = new Tag('Axios', '#764ABC');
+    static readonly H2DB = new Tag('H2DB','#022bbf');
 
     private constructor(private readonly key: string, public readonly color: string){
 
