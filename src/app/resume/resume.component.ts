@@ -15,7 +15,7 @@ export class ResumeComponent {
   DownloadFile(){
       const link = this.renderer.createElement('a');
       link.setAttribute('target','_blank');
-      link.setAttribute('href', 'https://drive.google.com/file/d/1wjyB1BSnmg7JuzJDCFgSbbB_PUJqck5p/view?usp=sharing');
+      link.setAttribute('href', 'https://drive.google.com/file/d/18dB_q7j6ipHyDOlH2ZweaRhTUlbzRfeQ/view?usp=sharing');
       link.setAttribute('download','Jiumutdikbasan.pdf');
       link.click();
       link.remove();
