@@ -23,6 +23,7 @@ export class Tag{
     static readonly REDUX = new Tag('Redux', '#764ABC');
     static readonly AXIOS = new Tag('Axios', '#764ABC');
     static readonly H2DB = new Tag('H2DB','#022bbf');
+    static readonly DOTNET = new Tag('.NET', '#5C2D91')
 
     private constructor(private readonly key: string, public readonly color: string){
 
